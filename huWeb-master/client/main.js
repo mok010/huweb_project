@@ -1,0 +1,1 @@
+FlowRouter.template('/main', 'main');

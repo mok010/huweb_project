@@ -1,0 +1,28 @@
+<template name="ex_navbar">
+  <div id="ex_navbar">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark text-right">
+      <a href="/main"><img src="/examples/logo_1.png" alt="" class="nav-logo" style="max-height: 40px;"></a>&nbsp;&nbsp;
+      <a href="/main"><img src="/examples/huWeb_logo.png" alt="" class="nav-logo" style="max-height: 40px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse" >
+        <ul class="navbar-nav ml-auto">
+          <a class="navbar-brand" href="/about">about</a>
+          <a class="navbar-brand" href="/post">gallery</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="/mosaic">모자이크</a>
+              <a class="dropdown-item" href="/gray">흑백필터</a>
+              <a class="dropdown-item" href="/bright">밝기조절</a>
+              <a class="dropdown-item" href="/resize">크기변환</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/main">go home</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</template>
