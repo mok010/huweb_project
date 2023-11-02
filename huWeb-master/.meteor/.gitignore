@@ -1,5 +1,0 @@
-local
-*.log
-bundle/
-*.tar.gz
-files/
